@@ -23,7 +23,7 @@ const App = () => {
       .then(response => {
         setData(response.data);
       })
-    }, 3000)
+    }, 30000)
     return () => clearInterval(interval); 
   }, []);
 

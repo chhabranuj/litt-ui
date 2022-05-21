@@ -36,8 +36,8 @@ const Header = (props) => {
     return (
         <div className='headerParent'>
             <div className='headerTitleParent'>
-                <p className='headerTitle'>HODLINFO</p>
-                <p className='headerSubTitle'>Powered By <span style={{color: '#6ececf'}}>Finstreet</span></p>
+                <p className='headerTitle'>Litt</p>
+                <p className='headerSubTitle'>Powered By <span style={{color: '#6ececf'}}>Anuj Chhabra</span></p>
             </div>
             <div className='headerButtonsParent'>
                 <div className='headerButton'>
