@@ -1,0 +1,33 @@
+.algorand {
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #787b81;
+}
+
+.footerImportantLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.link {
+    font-size: x-small;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 641px) {
+    .algorand {
+        border-radius: 10px;
+    }
+    .footerImportantLinks {
+        width: 60%;
+    }
+}

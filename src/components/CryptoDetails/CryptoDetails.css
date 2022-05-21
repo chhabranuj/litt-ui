@@ -1,0 +1,61 @@
+.cryptoDetailsChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.cryptoDetailsTable {
+    width: 100%;
+    border-spacing: 0 1em;
+    border-collapse: separate; 
+}
+
+.cryptoTableTitle {
+    margin-bottom: 10px;
+}
+
+.cryptoTitle {
+    text-align: start;
+    color: #787b81;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cryptoValue {
+    background-color: #2e3241;
+    padding: 15px 0;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+
+.cryptoValue:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.cryptoValue:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 641px) {
+    .cryptoDetailsChild {
+        margin: 0;
+        display: block;
+        overflow-x: auto;
+        width: auto;
+    }
+    .cryptoDetailsTable{
+        max-width: 100%;
+    }
+    .cryptoTitle {
+        font-size: small;
+    }
+    .cryptoValue {
+        font-size: small;
+        padding: 15px;
+        font-weight: 400;
+    }
+}

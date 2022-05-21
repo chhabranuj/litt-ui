@@ -1,0 +1,109 @@
+.headerParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0 1% 0;
+    color: white;
+}
+
+.headerTitle {
+    font-size: xxx-large;
+    margin: 0;
+    color: #6ececf;
+}
+
+.headerSubTitle {
+    margin: 2px 0 0 7px;
+    color: #787b81;
+}
+
+.headerButtonsParent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cryptoTypeButton {
+    margin: 0 20px;
+}
+
+.dropDownButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 10px 5px 10px 15px;
+    background-color: #2e3241;
+    border-radius: 10px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.buttonTitle {
+    margin: 0;
+}
+
+.dropDownMenu {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+.menuValue {
+    width: 120px;
+    margin: 0;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.buyCrypto {
+    background-color: #2e3241;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.telegram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #6ececf;
+    border-radius: 10px;
+}
+
+.telegramTitle {
+    margin: 0;
+}
+
+@media screen and (max-width: 641px) {
+    .headerParent {
+        flex-direction: column;
+    }
+
+    .headerTitleParent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .headerButtonsParent {
+        margin: 20px 0;
+    }
+
+    .headerButton {
+        font-size: medium;
+    }
+
+    .buttonOptions {
+        font-size: small;
+    }
+}
